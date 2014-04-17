@@ -1,0 +1,91 @@
+*{
+	box-sizing:border-box;
+}
+.container{
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-left: -400px;
+	margin-top: -150px;
+	background-color: #FFFFCC;
+	width: 800px;
+	height: 300px;
+	padding: 30px;
+	
+}
+
+.outerShell{
+position: relative;
+margin: auto;
+background-color: #4F4646;
+height: 100%;
+padding: 30px;
+}
+
+.innerShell{
+	background-color: black;
+	color:white;
+	position: relative;
+	margin: auto;
+	height: 100%;
+
+}
+
+.pmLabel{
+	
+	position: absolute;
+	top: 8px;
+	left: 30px;
+	color: white;
+
+}
+
+
+.clockScreen{
+	background-color: rgba(255, 0, 0, 0.3);
+	/*opacity: 0.3;*/
+	color: white;
+	font-size: 36px;
+	position: relative;
+	margin: auto;
+	height: 100%;
+	z-index: 1px;
+	width: 80%;
+
+
+}
+
+.indicator{
+
+	display: inline-block;
+	float:left;
+	color red;
+
+}
+
+.clockText{
+	color: red;
+	clear: both;
+	text-align: center;
+	font-size: 80px;
+
+}
+
+.amLabel{
+	position: absolute;
+	bottom: 10px;
+	left: 30px;
+	color: white;
+	white-space: pre;
+
+}
+
+.fmLabel{
+	color: white;
+	position:absolute;
+	left: 30px;
+	bottom:30px;
+	white-space: pre;
+	
+
+}
