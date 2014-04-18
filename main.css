@@ -5,24 +5,73 @@
 	position: absolute;
 	top:50%;
 	left:50%;
-	margin-left: -400px;
-	margin-top: -150px;
-	background-color: #FFFFCC;
-	width: 800px;
-	height: 300px;
+	margin-left: -500px;
+	margin-top:-250px;
+	/*background-color: #FFFFCmaC;*/
+	width: 1000px;
+	height: 500px;
 	padding: 30px;
 	
+}
+
+.shellAppearance{
+	border-radius: 25px 25px 0px 0px;
 }
 
 .outerShell{
 position: relative;
 margin: auto;
 background-color: #4F4646;
+width: 100%;
 height: 100%;
-padding: 30px;
+/*height: 400px;*/
+padding: 5px;
 }
 
+#outerShell1{
+position: relative;
+margin: auto;
+background-color: ##473f3f;
+padding: 5px;
+width: 100%;
+height: 100%;
+}
+#outerShell2{
+position: relative;
+margin: auto;
+background-color: #3f3838;
+padding: 5px;
+width: 100%;
+height: 100%;
+}
+#outerShell3{
+position: relative;
+margin: auto;
+background-color: #373131;
+padding: 5px;
+width: 100%;
+height: 100%;
+}
+#outerShell4{
+position: relative;
+margin: auto;
+background-color: #171515;
+padding: 5px;
+width: 100%;
+height: 100%;
+}
+#outerShell5{
+position: relative;
+margin: auto;
+background-color: #1f1c1c;
+padding: 5px;
+width: 100%;
+height: 100%;
+}
+
+
 .innerShell{
+	padding-top: 10px;
 	background-color: black;
 	color:white;
 	position: relative;
@@ -34,7 +83,7 @@ padding: 30px;
 .pmLabel{
 	
 	position: absolute;
-	top: 8px;
+	top: 15px;
 	left: 30px;
 	color: white;
 
@@ -43,12 +92,11 @@ padding: 30px;
 
 .clockScreen{
 	background-color: rgba(255, 0, 0, 0.3);
-	/*opacity: 0.3;*/
 	color: white;
 	font-size: 36px;
 	position: relative;
 	margin: auto;
-	height: 100%;
+	height: 60%;
 	z-index: 1px;
 	width: 80%;
 
@@ -59,7 +107,7 @@ padding: 30px;
 
 	display: inline-block;
 	float:left;
-	color red;
+	color: red;
 
 }
 
@@ -73,7 +121,7 @@ padding: 30px;
 
 .amLabel{
 	position: absolute;
-	bottom: 10px;
+	bottom: 70px;
 	left: 30px;
 	color: white;
 	white-space: pre;
@@ -84,8 +132,37 @@ padding: 30px;
 	color: white;
 	position:absolute;
 	left: 30px;
-	bottom:30px;
+	bottom:100px;
 	white-space: pre;
-	
+}
+
+.slider{
+	z-index: 1;
+	position: absolute;
+	bottom: 30px;
+	left: 100px;
+	hieght: 10px;
+	width: 350px;
+	background-color: white;
+}
+
+.sliderIndicator{
+background: red;
+width: 5px;
+height:100%;
+position: absolute;
+left: 70px;
+top:0;
 
 }
+
+
+
+
+
+
+
+
+
+
+
