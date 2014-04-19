@@ -156,6 +156,16 @@ top:0;
 
 }
 
+.station{
+	z-index: 1;
+	display:block;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	height: 10px;
+	width: 20px;
+	background-color: white;
+}
 
 
 
