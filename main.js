@@ -16,8 +16,26 @@ $(document).on('ready', function() {
   var slider= $('<div class= "slider">Slider</div>');
   var sliderIndicator= $('<div class= "sliderIndicator"></div>');
   var newDate= new Date();
-  console.log(newDate);
-  console.log(newDate.toLocaleTimeString());
+
+  
+  var myClock=setInterval(function(){myTimer()},1000);
+
+  function myTimer()
+  {
+  var d=new Date();
+  if(d.getHours() <12){
+    $(indicator).css('display', 'none');
+  }
+
+
+  var t=d.getHours() + ':' + d.getMinutes();
+  $(clockText).text(t);
+
+
+  }
+
+
+
 
   // var dial= $('<div class= "dial">dial</div>');
   // var stationIndicator= $('<div class= "stationIndicator"></div>');
@@ -43,5 +61,8 @@ $(slider).append(sliderIndicator);
 $(innerShell).append(clockScreen);
 $(clockScreen).append(indicator);
 $(clockScreen).append(clockText);
+
+
+
 
 });
